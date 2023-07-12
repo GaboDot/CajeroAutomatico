@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CajeroAutomatico.API", "CajeroAutomatico.API\CajeroAutomatico.API.csproj", "{3D5AE31E-444F-4235-8D21-EC7EAFFEECB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CajeroAutomatico.BLL", "CajeroAutomatico.BLL\CajeroAutomatico.BLL.csproj", "{FDAE30BC-6951-4C31-AAA1-B66BDD92B597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CajeroAutomatico.DAL", "CajeroAutomatico.DAL\CajeroAutomatico.DAL.csproj", "{176F5DE3-FD73-4034-AF81-D6C29C64CA3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CajeroAutomatico.IOC", "CajeroAutomatico.IOC\CajeroAutomatico.IOC.csproj", "{3810CA54-FF48-4322-B000-9B1F59EAE68A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CajeroAutomatico.DTO", "CajeroAutomatico.DTO\CajeroAutomatico.DTO.csproj", "{8B516643-AB98-4C63-9FFB-C64FAAF8979F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CajeroAutomatico.Model", "CajeroAutomatico.Model\CajeroAutomatico.Model.csproj", "{BD9DD23B-EE4C-47D6-8393-491995A87E9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CajeroAutomatico.Utils", "CajeroAutomatico.Utils\CajeroAutomatico.Utils.csproj", "{F4F60536-FACA-4793-94CB-EAE1F6989990}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D5AE31E-444F-4235-8D21-EC7EAFFEECB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D5AE31E-444F-4235-8D21-EC7EAFFEECB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D5AE31E-444F-4235-8D21-EC7EAFFEECB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D5AE31E-444F-4235-8D21-EC7EAFFEECB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDAE30BC-6951-4C31-AAA1-B66BDD92B597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDAE30BC-6951-4C31-AAA1-B66BDD92B597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDAE30BC-6951-4C31-AAA1-B66BDD92B597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDAE30BC-6951-4C31-AAA1-B66BDD92B597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{176F5DE3-FD73-4034-AF81-D6C29C64CA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176F5DE3-FD73-4034-AF81-D6C29C64CA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176F5DE3-FD73-4034-AF81-D6C29C64CA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176F5DE3-FD73-4034-AF81-D6C29C64CA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3810CA54-FF48-4322-B000-9B1F59EAE68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3810CA54-FF48-4322-B000-9B1F59EAE68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3810CA54-FF48-4322-B000-9B1F59EAE68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3810CA54-FF48-4322-B000-9B1F59EAE68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B516643-AB98-4C63-9FFB-C64FAAF8979F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B516643-AB98-4C63-9FFB-C64FAAF8979F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B516643-AB98-4C63-9FFB-C64FAAF8979F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B516643-AB98-4C63-9FFB-C64FAAF8979F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD9DD23B-EE4C-47D6-8393-491995A87E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9DD23B-EE4C-47D6-8393-491995A87E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9DD23B-EE4C-47D6-8393-491995A87E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9DD23B-EE4C-47D6-8393-491995A87E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F60536-FACA-4793-94CB-EAE1F6989990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F60536-FACA-4793-94CB-EAE1F6989990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F60536-FACA-4793-94CB-EAE1F6989990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F60536-FACA-4793-94CB-EAE1F6989990}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD875AC0-D8C5-4E51-BCA1-191F16074292}
+	EndGlobalSection
+EndGlobal
